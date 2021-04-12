@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凱迪研發科技股份有限公司 Kai Di R&D Technology Co., Ltd</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Sass/style_header&footer.css">
+
+
+    <script>
+        var i = 1;
+        function nav_rwd() {
+            i++;
+            var nav_none = document.getElementById('nav_none');
+            if (i % 2 == 0) { nav_none.style.display = 'block'; }
+            else { nav_none.style.display = 'none'; }
+
+            // var nav_none = document.getElementById('nav_none');
+            // nav_none.style.display='block' ;
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <!-- <div style="position: absolute;right: 50px; ;height: 50px;"><p>中文/English</p></div> -->
+        <div class="header_group">
+            <div class="logo "><a href="./index.html">
+                    <!-- <img src="img/資產 4.svg" srcset="img/資產 4.svg 500w, img/資產 6.svg 1000w" /> -->
+                    <picture>
+
+                        <source media="(max-width: 600px)"
+                            srcset="http://127.0.0.1:5500/img/%E8%B3%87%E7%94%A2%206.svg" />
+
+                        <img src="img/資產 4.svg" alt="kaidi_logo" style="width:auto;">
+                        
+                    </picture>
+                    <!-- <img src="./img/資產 4.svg" alt="kaidi_logo"> -->
+                </a></div>
+            <div class="header_group_right">
+                <div class="head_item ">
+                    <div><a href="./index.html">
+                            <h6>首頁</h6>
+                            <p>HOME</p>
+                        </a>
+                    </div>
+                    <div><a href="./about.html">
+                            <h6>關於愷迪</h6>
+                            <p>ABOUT KD</p>
+                        </a>
+
+                    </div>
+                    <div><a href="./product.html">
+                            <h6>產品</h6>
+                            <p>PRODUCT</p>
+                        </a>
+
+                    </div>
+                    <div><a href="./contact.html">
+                            <h6>聯絡我們</h6>
+                            <p>CONTACT US</p>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="header_community ">
+
+                    <div class="community_icon"><a href="https://www.facebook.com/">
+                            <img src="./img/facebook_icon.svg" alt="facebook_img"> </a>
+                    </div>
+
+                    <a href="https://www.instagram.com/">
+                        <div class="community_icon">
+                            <img src="./img/instagram_icon.svg" alt="instagram_img">
+                        </div>
+                    </a>
+                    <div class="language">中文/English</div>
+
+
+                </div>
+
+
+                <div class="nav_rwd" Onclick="nav_rwd()"><img src="./img/&Xi_工作區域 1.png" alt="&Xi"></div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <div id="nav_none">
+            <div><a href="./index.html">
+                    <h6>首頁</h6>
+
+                </a>
+            </div>
+            <div><a href="./about.html">
+                    <h6>關於愷迪</h6>
+
+                </a>
+
+            </div>
+            <div><a href="./product.html">
+                    <h6>產品</h6>
+
+                </a>
+
+            </div>
+            <div><a href="./contact.html">
+                    <h6>聯絡我們</h6>
+
+                </a>
+
+            </div>
+        </div>
+        <div style="width: 100vw;height: 100vh;">
+            <div style="height: 500px;width: 100px;;background-color: gray; "></div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer_group">
+            <div class="footer_logo"><img src="./img/資產 1.svg" alt="kaidi_logo"></div>
+            <div class="footer_item">
+                <a href="#">
+                    <p>首頁</p>
+                </a>
+                <a href="#">
+                    <p>隱私權政策</p>
+                </a>
+                <a href="#">
+                    <p>免責聲明</p>
+                </a>
+                <a href="#">
+                    <p>網站地圖</p>
+                </a>
+            </div>
+
+            <div class="footer_community">
+                <p>我們的社群網站</p>
+                <div class="footer_community_icon">
+                    <div>
+                        <a href="https://www.facebook.com/">
+                            <img src="./img/facebook_icon.svg" alt="facebook_img"> </a>
+                    </div>
+
+
+                    <div>
+                        <a href="https://www.instagram.com/">
+                            <img src="./img/instagram_icon.svg" alt="instagram_img"> </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        </div>
+        <div class="footer_end">
+            <p>© 2020 臺灣愷迪研發科技股份有限公司版權所有。 | Designed by Goldenman.<br>
+                衛部醫器輸字第027352號 衛部醫器輸字第027087號 北市衛器廣字第107120186號 北市衛器廣字第107080236號</p>
+        </div>
+
+    </footer>
+
+
+
+    <aside>
+
+    </aside>
+
+
+</body>
+
+</html>
