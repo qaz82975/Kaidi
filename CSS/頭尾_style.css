@@ -1,0 +1,107 @@
+
+/* Share */
+
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.display_flex{
+    display: flex;
+}
+
+
+
+/* header */
+header{
+    box-shadow: 0px 1px 5px grey; 
+    padding: 15px 0;
+}
+.header_group{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+   
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    background-image:url(../img/logo_980x250_工作區域\ 1.png);
+    background-size:cover;
+    height: 80px;
+    width: 250px;
+
+
+    
+}
+.head_item{
+    display: flex;
+    align-items: flex-end;
+     
+}
+.head_item div{
+    margin: 0 30px;
+     text-align: center;
+}
+.head_item div h6{
+    margin: 0;
+}
+.head_item div p{
+    margin: 0;
+    font-size: 11pt;
+  
+}
+.header_community{
+    display: flex;
+}
+.fb{
+    height: 35px;width: 35px;
+    background-image:url(../img/iconfinder_2018_social_media_popular_app_logo_facebook_3225194.png) ;
+    background-size: cover;
+}
+.ins{
+    height: 35px;width: 35px;
+    background-image:url(../img/iconfinder_2018_social_media_popular_app_logo_instagram_3225191.png) ;
+    background-size: cover;
+}
+/* main */
+
+/* footer */
+footer{
+    
+    box-shadow: 0px -1px 5px grey;
+}
+.footer_group{
+    display: flex;
+    width: 1000px;
+    margin: auto ;
+    padding: 30px 0;
+    justify-content: space-between;
+     
+
+}
+
+.footer_logo{
+    background-image:url(../img/footer_logo_500x336.png) ;
+    background-size:cover;
+    height: 130px;
+    width: 200px;
+
+    }
+.footer_item{
+   text-align: center;
+   font-size: 11pt;
+}
+
+.footer_end{
+    background-color: black;
+    color: white;
+    text-align: center;
+   padding: 15px 0;
+   font-size: 10pt;
+   line-height: 25px;
+}
+
+
+
